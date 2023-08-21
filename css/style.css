@@ -1,0 +1,123 @@
+body{
+	background-color : #36393f;
+	height:98%;
+}
+/*entete*/
+#entete{
+	border-bottom:1px solid rgb(34, 34, 34);;
+	height:50px;
+	vertical-align:middle;
+}
+
+#entete h1{
+	display: inline;
+	color: #72767d;
+}
+
+#channel{
+	display:inline;
+	color: white;
+	padding-left:10px;
+	padding-right:15px;
+	font-weight:bold;
+	font-size:20px;
+	border-right:solid 2px  #40444b;
+}
+
+#desc{
+	display:inline;
+	color:rgb(114, 118, 125);;
+	padding-left:10px;
+}
+
+#chat{
+ 	display:inline;
+ 	width:20px;
+
+}
+
+#connect1{
+	display:inline;
+	padding-left:25px;
+	color: white;
+}
+
+/*affichage des messages*/
+#affichage{
+	height:90%;
+	padding-left:15px;
+	padding-right : 15px;
+	display:flex;
+	flex-direction:column;
+	overflow-x: hidden;
+	overflow-y:initial;
+
+}
+#message{
+	border-bottom:1px solid #40444b;
+	display:flex;
+	flex-direction:row;
+	padding-top:10px;
+	width:100%;
+	
+}
+
+#messageEcrit{
+	padding-left:15px;
+	display:table-row;
+	flex-direction:column;
+	width:100%;
+	white-space:normal;	
+}
+
+#imgProfil{
+    width : 55px; 
+    height : 55px;
+    border: none;
+    border-radius : 120px;
+    
+}
+
+#pseudo{
+	display:inline;
+}
+
+.Alderiate{
+	color:gold;
+}
+
+.Carlooss{
+	color:#008080;
+}
+#date{
+	display:inline;
+	padding-left:15px;
+	color:rgb(114, 118, 125);;
+}
+
+#texte{
+	color:white;
+	width:98%;
+	word-wrap: break-word;   
+}
+
+/*textarea*/
+
+#publie::-moz-placeholder{
+	color:rgb(114, 118, 125);
+}
+
+#publie{
+	background-color : #40444b;
+	border:none;
+	width:100%;
+	border-radius: 10px;
+	resize:none;
+	color:white;
+	height:40px;
+	line-height:40px;
+	padding-left:15px;
+	outline:none;
+
+}
+
